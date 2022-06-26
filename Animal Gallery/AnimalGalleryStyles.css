@@ -1,0 +1,35 @@
+body{ 
+    /* background: url(backiee-225800.jpg) no-repeat center center fixed;  */
+    background-color: rgb(244, 208, 116);
+
+    background-size: cover;
+  }
+.container{
+  background-color: rgb(2, 8, 37);
+  width: 70%;
+  margin: 0px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+  
+}
+.heading{
+  color: rgb(58, 58, 243);
+  font-family: 'Sofia';
+  font-size: 50px;
+  text-align: center;
+}
+.heading:hover{
+  color: rgb(52, 198, 208);
+} 
+
+.Image{
+  width: 300px;
+  height: 220px;
+  padding: 15px;
+  border-radius: 35px;
+  opacity: 0.9;
+}
+.Image:hover{
+  opacity: 1;
+}

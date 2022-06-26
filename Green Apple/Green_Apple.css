@@ -1,0 +1,112 @@
+body {
+    background-color: #90ee90;
+}
+
+.product_container {
+    margin: 0px auto;
+    width: fit-content;
+    display: flex;
+    margin-top: 10%;
+}
+
+.product_details {
+    width: 600px;
+    background-color: white;
+    height: 600px;
+    display: flex;
+}
+
+.product_image {
+    width: 300px;
+    background-color: black;
+    height: 500px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 6px 24px -5px ;
+}
+
+.detail_first{
+    flex: 0.45;
+}
+
+.detail_second {
+    flex: 0.55;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.code_text {
+    font-size: 12px;
+    opacity: 0.3;
+}
+
+.cost_text {
+    color: red;
+    font-size: 20px;
+}
+
+.price_text {
+    font-size: 80px;
+}
+
+.color_img:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: transform 0.8s ;
+    
+    
+}
+
+li {
+    font-size: 13px;
+}
+
+.add_to_cart_btn {
+    background-color: red;
+    color: white;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px -5px grey;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.top_section{
+    flex: 0.8;
+    background: radial-gradient(#f4f4f4 30%,    #adff2f 70%  );
+}
+.bottom_section{
+    flex: 0.2;
+    background-color:rgb(247, 218, 218);
+    align-items: center;
+}
+.main_apple_img{
+    position: absolute;
+    left: -100px;
+}
+.small_img{
+    border: 0.5px solid gray;
+    transition: transform 0.8s;
+    
+}
+.small_img:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: scale(0.9); 
+    cursor: pointer;
+}
+.icon1{
+    color: white;
+    margin: 10px;
+}
+.icon2{
+    color: white;
+    float: right;
+    margin: 10px;
+}

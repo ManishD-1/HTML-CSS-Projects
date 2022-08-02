@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Objects </title>
+</head>
+<Script>
+    let a = 5
+    console.log(a)
+
+    let b = new Number(6)
+    console.log(b)
+
+    console.log(a==b)
+    // b is object so it will give false
+
+    let c = new String("accio")
+    console.log(c)
+    console.log(c.valueOf()) // it will show value inside object , i.e. accio
+
+    let d = new Boolean(true)
+    console.log(d)
+
+    const obj1 = {
+        a: 5,
+        b: 20
+    }
+    obj1.a = 15
+
+    console.log(obj1)
+
+    const arr = [2,1,3,4,5]
+    arr[2] = 14
+    console.log(arr)
+
+
+    // let suppose we create obj1 again
+
+    // obj1 = {
+    //     a: 10,
+    //     b: 15
+    // }
+    // console.log(obj1)
+
+// It will give an error.. We can change individual key 
+// but we cannot change entire reference of object
+// we cannot reassign obj1
+</Script>
+<body>
+    
+</body>
+</html>
